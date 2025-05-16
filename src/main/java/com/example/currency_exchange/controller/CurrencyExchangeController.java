@@ -33,4 +33,10 @@ public class CurrencyExchangeController {
                 
 
     }
+
+    @GetMapping("/test")
+
+public String test(){
+    return "test";
+}
 }
